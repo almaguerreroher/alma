@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-size: 20px;
+    font-family:'poppins' sans-seri;
+    color:rgb(0, 0, 0);
+    text-align: left;
+    background-image:url(../imagenes/fondo.jpg);
+}
+
+#logo {
+       width: 100px;
+       height:100px;
+       margin-right:20px;
+       border-radius:50%;
+}
+
+#titulo {
+      color:rgb(129, 61, 192)
+      
+}
+
+#actor-seleccionado{
+    text-align:center;
+}
+
+#contenido-principal{
+    display:flex;
+    align-items:stretch;
+}
+
+#actores-lista{
+    min-width:200px;
+}
+
+.bloque-fondo {
+    min-width:200px;
+   padding:10px;
+    border-radius: 16px;
+   margin: 20px;
+         background-color:rgba(255, 255, 255, 0.7)
+     
+}
+
+.alineado-centrado{
+    display:flex;
+    align-items: center;
+}
