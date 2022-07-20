@@ -16,9 +16,15 @@ body {
 }
 
 #titulo {
-      color:rgb(129, 61, 192)
-      
+      color:rgb(129, 61, 192);
+      font-size: 70px;
+      margin:0px;
+      letter-spacing: 5px;
+      text-shadow: 2px 2px black;
 }
+
+      
+
 
 #actor-seleccionado{
     text-align:center;
@@ -33,16 +39,48 @@ body {
     min-width:200px;
 }
 
+
+
+#actores-lista button{
+    background-color:rgb(253, 194, 250);
+    color:rgb(0, 0, 0);
+    display:block;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 30px;
+    padding: 5px;
+    border-style:none;
+    border-bottom-style:solid;
+    border-width:2px;
+    border-color:rgb(0, 0, 0);
+    border-radius: 25px;
+    cursor:pointer;
+  }
+
+#actores-lista button:hover,
+#actores-lista button.seleccionado{
+
+    background-color:palevioletred;
+    border-color:rgb(0, 0, 0);
+    width: 100%;
+}
+
 .bloque-fondo {
+    
     min-width:200px;
    padding:10px;
     border-radius: 16px;
    margin: 20px;
-         background-color:rgba(255, 255, 255, 0.7)
+         background-color:rgba(255, 255, 255, 0.7);
      
 }
+
 
 .alineado-centrado{
     display:flex;
     align-items: center;
+}
+
+#encabezado{
+    padding-left: 10%;
 }
