@@ -4,15 +4,16 @@ body {
     font-size: 20px;
     font-family:'poppins' sans-seri;
     color:rgb(0, 0, 0);
-    text-align: left;
+    text-align:left;
     background-image:url(../imagenes/fondo.jpg);
 }
+
 
 #logo {
        width: 100px;
        height:100px;
        margin-right:20px;
-       border-radius:50%;
+       border-radius:50%;     
 }
 
 #titulo {
@@ -23,39 +24,38 @@ body {
       text-shadow: 2px 2px black;
 }
 
-      
-
-
 #actor-seleccionado{
     text-align:center;
 }
 
 #contenido-principal{
     display:flex;
-    align-items:stretch;
+   align-items: stretch;
 }
 
-#actores-lista{
+
+#actores-lista {
     min-width:200px;
+    
 }
-
 
 
 #actores-lista button{
-    background-color:rgb(253, 194, 250);
-    color:rgb(0, 0, 0);
-    display:block;
-    margin-bottom: 15px;
-    width: 100%;
-    font-size: 30px;
-    padding: 5px;
-    border-style:none;
-    border-bottom-style:solid;
-    border-width:2px;
-    border-color:rgb(0, 0, 0);
-    border-radius: 25px;
-    cursor:pointer;
-  }
+  background-color:rgb(253, 194, 250);
+  color:rgb(0, 0, 0);
+  display:block;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 30px;
+  padding: 5px;
+  border-style:none;
+  border-bottom-style:solid;
+  border-width:2px;
+  border-color:rgb(0, 0, 0);
+  border-radius: 25px;
+  cursor:pointer;
+}
+
 
 #actores-lista button:hover,
 #actores-lista button.seleccionado{
@@ -65,16 +65,17 @@ body {
     width: 100%;
 }
 
+
+
 .bloque-fondo {
     
     min-width:200px;
    padding:10px;
     border-radius: 16px;
    margin: 20px;
-         background-color:rgba(255, 255, 255, 0.7);
+         background-color:rgba(255, 255, 255, 0.7)
      
 }
-
 
 .alineado-centrado{
     display:flex;
@@ -82,5 +83,5 @@ body {
 }
 
 #encabezado{
-    padding-left: 10%;
+     padding-left: 10%;
 }
