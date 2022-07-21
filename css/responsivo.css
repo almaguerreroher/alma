@@ -11,9 +11,11 @@
 @media screen and (max-width:1056px){
 
     #titulo{
-
         display:none
     }
-    
+
+    #contenido-principal{
+        flex-direction:column;
+    }
 }
     
