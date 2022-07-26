@@ -15,7 +15,23 @@
     }
 
     #contenido-principal{
-        flex-direction:column;
+        
+        flex-direction: column;
     }
+    
 }
+
+
+@media only screen and (max-width:610px){
+
+    body{
+        background-image:none;    
+    
+    }
+
+
+   
+    }
+
+
     

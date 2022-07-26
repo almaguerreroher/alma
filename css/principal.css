@@ -1,0 +1,6 @@
+
+/*estilos principales PC */
+@import url('estilos.css');
+
+/*diseño responsivo tablet/ smartphone */
+@import url('responsivo.css');
