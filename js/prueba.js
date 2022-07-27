@@ -1,6 +1,17 @@
 
-let texto_1 = "hola";
-let texto_2 = "programacion";
+/*programa para calcular el area de un trangulo
+a= b x h / 2
+*/
 
-let resultado = texto_1 + " " + texto_2;
-console.log(resultado);
+//creacion de variables 
+
+let base = 89;
+let altura = 30;
+
+//calcular resultado 
+
+let resutado = (base * altura )/2
+
+//mostrar resultado 
+
+console.log(resultado);   
