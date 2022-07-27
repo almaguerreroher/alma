@@ -6,6 +6,7 @@ body {
     color:rgb(0, 0, 0);
     text-align:left;
     background-image:url(../imagenes/fondo.jpg);
+    background-size: cover;
 }
 
 
